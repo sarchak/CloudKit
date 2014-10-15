@@ -10,8 +10,6 @@ import UIKit
 import CloudKit
 
 class ViewController: UIViewController {
-    let cloudKitHelper = CloudKitHelper()
-
 
     @IBOutlet weak var inputText: UITextField!
     override func viewDidLoad() {
@@ -23,10 +21,19 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func disMiss() {
+                self.dismissViewControllerAnimated(true, completion: nil)
+    }
 
+    @IBAction func cancel(sender: AnyObject) {
+        disMiss()
+    }
+    
     @IBAction func saveInCloud(sender: UIButton) {
         cloudKitHelper.saveRecord(self.inputText.text)
         self.inputText.text = nil
+        disMiss()
     }
 
 }

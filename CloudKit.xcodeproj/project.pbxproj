@@ -15,6 +15,8 @@
 		566BA8A119EA3C690017E612 /* CloudKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BA8A019EA3C690017E612 /* CloudKitTests.swift */; };
 		566BA8AC19EA3C810017E612 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566BA8AB19EA3C810017E612 /* CloudKit.framework */; };
 		5685842F19EB88DA00D1108D /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5685842E19EB88DA00D1108D /* CloudKitHelper.swift */; };
+		56FA9A6319EE189200776697 /* CloudKitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA9A6219EE189200776697 /* CloudKitTableViewController.swift */; };
+		56FA9A6519EE287500776697 /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA9A6419EE287500776697 /* Todos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		566BA8AA19EA3C7B0017E612 /* CloudKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudKit.entitlements; sourceTree = "<group>"; };
 		566BA8AB19EA3C810017E612 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		5685842E19EB88DA00D1108D /* CloudKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		56FA9A6219EE189200776697 /* CloudKitTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitTableViewController.swift; sourceTree = "<group>"; };
+		56FA9A6419EE287500776697 /* Todos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				566BA89119EA3C690017E612 /* Images.xcassets */,
 				566BA89319EA3C690017E612 /* LaunchScreen.xib */,
 				566BA88819EA3C690017E612 /* Supporting Files */,
+				56FA9A6219EE189200776697 /* CloudKitTableViewController.swift */,
+				56FA9A6419EE287500776697 /* Todos.swift */,
 			);
 			path = CloudKit;
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 			files = (
 				566BA88D19EA3C690017E612 /* ViewController.swift in Sources */,
 				566BA88B19EA3C690017E612 /* AppDelegate.swift in Sources */,
+				56FA9A6319EE189200776697 /* CloudKitTableViewController.swift in Sources */,
+				56FA9A6519EE287500776697 /* Todos.swift in Sources */,
 				5685842F19EB88DA00D1108D /* CloudKitHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
